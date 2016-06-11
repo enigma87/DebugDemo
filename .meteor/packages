@@ -1,0 +1,74 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+session                 # Client-side reactive dictionary for your app
+jquery                  # Helpful client-side library
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifiers      # JS/CSS minifiers run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+#autopublish              Publish all data to the clients (removing it to be production ready)
+#insecure                 Allow all DB writes from clients (removing it to be prodcution ready)
+
+kadira:blaze-layout
+erasaur:meteor-lodash
+stolinski:stylus-multi
+fortawesome:fontawesome
+spiderable
+fastclick
+raix:handlebar-helpers
+aldeed:collection2
+aldeed:autoform
+accounts-password
+matb33:bootstrap-glyphicons
+zimme:active-route
+gwendall:auth-client-callbacks
+meteortoys:allthings
+check
+iron:router
+mrgalaxy:stripe
+http
+accounts-base
+gfk:notifications
+themeteorchef:jquery-validation
+d3js:d3
+percolate:synced-cron
+momentjs:moment
+deanius:promise
+rgoomar:bootstrap-validator
+email
+ian:accounts-ui-bootstrap-3
+twbs:bootstrap
+wylio:mandrill
+sacha:spin
+chriswessels:hammer
+nolimits4web:swiper
+abpetkov:switchery
+
+
+reactive-var
+templates:tabs
+standard-minifier-css
+standard-minifier-js
+peppelg:bootstrap-3-modal
+juliancwirko:s-alert
+juliancwirko:s-alert-scale
+juliancwirko:s-alert-slide
+jeffpatzer:jquery-payment
+xolvio:cleaner
+practicalmeteor:chai
+practicalmeteor:mocha
+tyler:autonumeric
+dburles:factory
+practicalmeteor:faker
+johanbrook:publication-collector
+dburles:factory-client
